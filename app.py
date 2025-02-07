@@ -3,9 +3,8 @@ import app_clap
 
 def main():
 
-
-    demo = gr.TabbedInterface([app_clap.create_app()], 
-                            ["Non Real Time ASR demo"])
+    demo = gr.TabbedInterface([app_dcase.create_app(), app_clap.create_app()], 
+                            ["DCASE demo", "CLAP demo"])
 
     demo.launch()
 
