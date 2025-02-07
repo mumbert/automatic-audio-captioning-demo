@@ -1,5 +1,6 @@
 import gradio as gr
 import app_clap
+import app_dcase
 
 def main():
 
