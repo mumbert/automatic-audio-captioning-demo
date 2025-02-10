@@ -3,7 +3,6 @@ msclap
 gdown
 aac-datasets
 aac-metrics
-git+https://github.com/Labbeti/dcase2024-task6-baseline
 absl-py
 aiohappyeyeballs
 aiohttp
